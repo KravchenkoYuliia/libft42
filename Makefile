@@ -32,18 +32,23 @@ FILES  = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_str
 
 SRC = $(addprefix $(PATH)/, $(FILES))
 INC = includes/
+OBJ_DIR = objects
 
-OBJECTS = $(SRC:.c=.o)
+OBJECTS = $(addprefix $(OBJ_DIR)/, $(FILES:.c=.o))
 CFLAGS = -Wall -Wextra -Werror -I $(INC)
 
-$(NAME): $(OBJECTS)
+$(NAME): $(OBJ_DIR) $(OBJECTS)
 	ar rcs $(NAME) $(OBJECTS)
 
-%.o: %.c
+$(OBJ_DIR):
+	mkdir -p $(OBJ_DIR)
+
+$(OBJ_DIR)/%.o: $(PATH)/%.c
 	$(CC) -c $(CFLAGS) -o $@ $<
 
 clean:
-	rm -f $(OBJECTS)
+	rm -rf $(OBJ_DIR)
 fclean: clean
 	rm -f $(NAME)
+
 re: fclean all
