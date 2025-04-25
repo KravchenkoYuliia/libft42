@@ -6,7 +6,7 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 15:35:19 by yukravch          #+#    #+#             */
-/*   Updated: 2025/04/09 19:07:49 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:26:55 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdarg.h>
 # include <stdlib.h>
+# include <stdio.h>
 
 int		ft_putchar_printf(int c);
 size_t	ft_putstr_printf(char *str);
