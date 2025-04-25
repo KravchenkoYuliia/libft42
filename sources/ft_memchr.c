@@ -6,10 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 12:17:32 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/22 11:54:20 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:24:50 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdlib.h>
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
@@ -33,19 +32,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 		return (&str[i]);
 	return (NULL);
 }
-/*
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-int	main(int	ac, char **av)
-{
-	(void)ac;
-	char *result;
-	result = (char *)ft_memchr((char *)av[1], atoi(av[2]), atoi(av[3]));
-	//result = (char *)memchr((char *)av[1], atoi(av[2]), atoi(av[3]));
-	//printf("%p\n", &result);
-	//printf("%lu\n", sizeof(char));
-	//printf("%p", &result + 1);
-}
-*/

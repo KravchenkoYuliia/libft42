@@ -6,11 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 15:23:48 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/22 14:16:04 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:24:14 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <string.h>
-#include <stdlib.h>
 #include "libft.h"
 
 static int	ft_strlen_n(int n)
@@ -58,14 +56,3 @@ char	*ft_itoa(int n)
 		array[i] = '-';
 	return (array);
 }
-/*
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(int ac, char **av)
-{
-	(void)ac;
-
-	printf("%s", ft_itoa(atoi(av[1])));
-}
-*/

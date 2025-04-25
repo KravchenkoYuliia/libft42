@@ -6,10 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 12:36:20 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/24 12:03:28 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:29:12 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 #include "libft.h"
 
 static void	ft_putchar(char c, int fd)
@@ -41,12 +40,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(147483648, fd);
 	}
 }
-/*
-#include <fcntl.h>
-
-int	main()
-{
-	int	fd = open("test", O_WRONLY);
-	ft_putnbr_fd(-2147483648, fd);
-}
-*/

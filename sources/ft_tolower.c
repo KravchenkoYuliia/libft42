@@ -6,7 +6,7 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 17:38:56 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/20 17:45:45 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:38:18 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -20,11 +20,3 @@ int	ft_tolower(int c)
 		return (letter + 32);
 	return (c);
 }
-/*
-#include <stdio.h>
-int	main (int ac, char **av)
-{
-	(void)ac;
-	printf("%c", ft_tolower((char)*av[1]));
-}
-*/

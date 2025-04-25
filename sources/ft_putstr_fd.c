@@ -6,10 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 12:18:12 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/24 14:41:14 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:29:53 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 #include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
@@ -25,12 +24,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-/*
-#include <fcntl.h>
-
-int main()
-{
-	int	fd = open("test", O_WRONLY);
-	ft_putstr_fd("Bonjour", fd);
-}
-*/

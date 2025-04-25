@@ -6,7 +6,7 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 18:09:27 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/22 10:57:37 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:36:58 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -26,14 +26,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int	main(int ac, char ** av)
-{
-	(void)ac;
-	printf("%s", ft_strrchr(av[1], *av[2]));
-	printf("%s", strrchr(av[1], *av[2]));
-}
-*/

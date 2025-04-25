@@ -6,10 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 19:20:47 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/20 17:24:41 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:30:51 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char *s)
@@ -31,11 +30,3 @@ char	*ft_strdup(const char *s)
 	str[i] = '\0';
 	return (str);
 }
-/*
-#include <stdio.h>
-int	main(int ac, char **av)
-{
-	(void)ac;
-	printf("%s", ft_strdup(av[1]));
-}
-*/

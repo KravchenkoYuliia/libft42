@@ -6,13 +6,10 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 11:34:04 by yukravch          #+#    #+#             */
-/*   Updated: 2025/04/09 19:04:08 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:27:08 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
-#include <stdarg.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include "libft.h"
 
 int	ft_charset_printf(char mand_arg, char *charset)
@@ -79,13 +76,3 @@ int	ft_printf(const char *mand_arg, ...)
 	va_end(arg);
 	return (arg_len);
 }
-/*
-#include <stdio.h>
-int	main()
-{
-	char c = ft_printf(NULL);
-	ft_printf("%d", c);
-	//printf("%p", "w");
-	return (0);
-}
-*/

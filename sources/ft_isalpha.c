@@ -6,7 +6,7 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 14:40:15 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/20 18:51:29 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:22:59 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -17,20 +17,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int main(int argc, char **argv)
-{
-	int	i;
-
-	i = 1;
-	(void)argc;
-	while (argv[i])
-	{
-		printf("%d ma fonction\n", ft_isalpha(*argv[i]));
-		printf("%d la vrai fonction\n", isalpha(*argv[i]));
-		i++;
-	}
-}
-*/

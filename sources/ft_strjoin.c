@@ -6,10 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 09:42:03 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/20 17:27:45 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:31:30 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
@@ -38,11 +37,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	array[i + j] = '\0';
 	return (array);
 }
-/*
-#include <stdio.h>
-int	main(int ac, char **av)
-{
-	(void)ac;
-	printf("%s", ft_strjoin(av[1], av[2]));	
-}
-*/

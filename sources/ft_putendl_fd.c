@@ -6,10 +6,10 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 12:24:19 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/24 14:32:58 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:28:41 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {
@@ -27,11 +27,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, &n, 1);
 }
-/*
-#include <fcntl.h>
-int	main()
-{
-	int	fd = open("test", O_WRONLY);
-	ft_putendl_fd("Bonjour", fd);
-}
-*/

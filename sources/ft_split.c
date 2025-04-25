@@ -19,7 +19,6 @@
 /*   Updated: 2024/11/18 20:47:09 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdlib.h>
 #include "libft.h"
 
 static void	*ft_free_malloc(char **array, size_t word)
@@ -102,21 +101,3 @@ char	**ft_split(char const *s, char c)
 	array[word] = 0;
 	return (array);
 }
-/*
-#include <stdio.h>
-
-int	main(int ac, char **av)
-{
-	(void)ac;
-	char **test = ft_split(av[1], ' ');
-	int	i;
-
-	i = 0;
-	while (test[i])
-{
-	printf("%s\n", test[i]);
-	i++;
-}
-	return 0;
-}
-*/

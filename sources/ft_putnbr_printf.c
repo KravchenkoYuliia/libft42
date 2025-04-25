@@ -6,11 +6,10 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 18:13:20 by yukravch          #+#    #+#             */
-/*   Updated: 2025/04/25 11:13:53 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:29:37 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
-#include <unistd.h>
 
 size_t	ft_putnbr_printf(long nb)
 {

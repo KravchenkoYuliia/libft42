@@ -6,10 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 16:21:44 by yukravch          #+#    #+#             */
-/*   Updated: 2025/02/17 11:50:58 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:28:00 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 #include "ft_printf.h"
 
 int	ft_putchar_printf(int c)

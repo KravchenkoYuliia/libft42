@@ -6,10 +6,9 @@
 /*   By: yukravch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 15:15:06 by yukravch          #+#    #+#             */
-/*   Updated: 2024/11/20 19:32:08 by yukravch         ###   ########.fr       */
+/*   Updated: 2025/04/25 11:31:44 by yukravch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdlib.h>
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t siz)
@@ -33,14 +32,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t siz)
 	}
 	return (siz + s_len);
 }
-/*
-#include <stdio.h>
-#include <stdlib.h>
-#include <bsd/string.h>
-int	main(int ac, char **av)
-{
-	(void)ac;
-	printf("ma fonction: %zu\n", ft_strlcat(av[1], av[2], atoi(av[3])));
-	printf("vrai fonction: %zu", strlcat(av[1], av[2], atoi(av[3])));
-}
-*/
